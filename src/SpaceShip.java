@@ -1,8 +1,8 @@
 public interface SpaceShip {
-    void launch(); // returns true or false
-    void land(); // returns true or false
-    void canCarry(Object Item); // returns true if rocket can carry this item or false if not
-    void  carry(Object Item); // a method that takes Item and updates the current weight of rocket
+    boolean launch(); // returns true or false
+    boolean land(); // returns true or false
+    boolean canCarry(Item item); // returns true if rocket can carry this item or false if not
+    void  carry(Item item); // a method that takes Item and updates the current weight of rocket
 
 
 
